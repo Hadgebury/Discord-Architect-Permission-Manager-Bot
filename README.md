@@ -28,7 +28,7 @@ This bot moves away from clicking UI toggles in Discord and allows you to bulk-e
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+    git clone [https://github.com/Hadgebury/DiscordPermissionsMassUpdaterBot](https://github.com/Hadgebury/DiscordPermissionsMassUpdaterBot) 
     cd your-repo-name
     ```
 
@@ -117,3 +117,4 @@ These keys are **ignored** by the bot during the Apply phase. They exist solely 
 ## 📝 License
 
 [License](https://github.com/Hadgebury/Discord-Permissions-Mass-Updater-Bot/blob/main/LICENSE)
+

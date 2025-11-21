@@ -116,4 +116,4 @@ These keys are **ignored** by the bot during the Apply phase. They exist solely 
 
 ## 📝 License
 
-[Your License Here, e.g., MIT]
+[License](https://github.com/Hadgebury/Discord-Permissions-Mass-Updater-Bot/blob/main/LICENSE)

@@ -1,13 +1,28 @@
 # Ignore Python cache
 __pycache__/
 *.py[cod]
+*$py.class
 
-# Ignore Config Files (Contains your server data)
+# Configuration & Secrets (Do NOT commit your token)
+config.json
+.env
+config.py
+
+# Generated Channel & Global Permissions Backups/Configs
 backup_channels.json
 config_channels.json
 backup_global.json
 config_global.json
 
-# Ignore Token file if you decide to move it out of bot.py
-.env
-config.py
+# User-specific blueprint outputs in blueprints/ and backups/
+backups/*
+!backups/.gitkeep
+blueprints/*
+!blueprints/.gitkeep
+!blueprints/starter_community.json
+
+# OS and Editor files
+.vscode/
+.idea/
+*.swp
+Thumbs.db

@@ -1,0 +1,8 @@
+{
+  "bot_token": "YOUR_DISCORD_BOT_TOKEN_HERE",
+  "command_prefix": "!",
+  "dev_guild_id": "",
+  "rate_limit_delay_seconds": 0.25,
+  "backup_dir": "backups",
+  "blueprint_dir": "blueprints"
+}

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "schema_version": "2.0",
+    "name": "Starter Community Server",
+    "description": "Clean, organized starter layout with Welcome, Community, and Voice categories."
+  },
+  "settings": {
+    "verification_level": "low",
+    "default_notifications": "only_mentions",
+    "explicit_content_filter": "all_members"
+  },
+  "roles": [
+    {
+      "name": "Admin",
+      "color": "#e74c3c",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": {
+        "administrator": true
+      }
+    },
+    {
+      "name": "Moderator",
+      "color": "#3498db",
+      "hoist": true,
+      "mentionable": true,
+      "permissions": {
+        "manage_messages": true,
+        "kick_members": true,
+        "ban_members": true,
+        "mute_members": true,
+        "deafen_members": true
+      }
+    },
+    {
+      "name": "Member",
+      "color": "#2ecc71",
+      "hoist": false,
+      "mentionable": false,
+      "permissions": {
+        "send_messages": true,
+        "read_message_history": true,
+        "connect": true,
+        "speak": true
+      }
+    }
+  ],
+  "categories": [
+    {
+      "name": "WELCOME & INFORMATION",
+      "position": 0,
+      "channels": [
+        {
+          "name": "announcements",
+          "type": "text",
+          "topic": "Official server news and updates",
+          "slowmode": 0
+        },
+        {
+          "name": "rules",
+          "type": "text",
+          "topic": "Server guidelines and community conduct",
+          "slowmode": 0
+        }
+      ]
+    },
+    {
+      "name": "COMMUNITY TEXT",
+      "position": 1,
+      "channels": [
+        {
+          "name": "general-chat",
+          "type": "text",
+          "topic": "Main discussion area for members",
+          "slowmode": 3
+        },
+        {
+          "name": "media-and-memes",
+          "type": "text",
+          "topic": "Share screenshots, artwork, and clips",
+          "slowmode": 5
+        },
+        {
+          "name": "bot-commands",
+          "type": "text",
+          "topic": "Use bot commands here",
+          "slowmode": 0
+        }
+      ]
+    },
+    {
+      "name": "VOICE CHANNELS",
+      "position": 2,
+      "channels": [
+        {
+          "name": "Lounge Voice 1",
+          "type": "voice"
+        },
+        {
+          "name": "Lounge Voice 2",
+          "type": "voice"
+        },
+        {
+          "name": "Gaming Group",
+          "type": "voice"
+        }
+      ]
+    }
+  ],
+  "orphan_channels": []
+}

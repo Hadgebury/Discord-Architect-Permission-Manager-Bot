@@ -53,8 +53,8 @@ Manage permissions, channel hierarchy, categories, and server settings declarati
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Hadgebury/DiscordPermissionsMassUpdaterBot.git
-cd DiscordPermissionsMassUpdaterBot
+git clone https://github.com/Hadgebury/Discord-Architect-Permission-Manager-Bot.git
+cd Discord-Architect-Permission-Manager-Bot
 ```
 
 ### 2. Set Up a Virtual Environment (Optional but Recommended)
@@ -302,4 +302,10 @@ The test suite verifies:
 
 ## 📄 Licence
 
-This project is licensed under the MIT Licence - see the [LICENSE](file:///c:/Users/rocki/Documents/GitHub/DiscordPermissionsMassUpdaterBot/LICENSE) file for details.
+This project is licensed under a **Custom Modified MIT Non-Commercial Licence (MIT-NC)** with mandatory author attribution:
+
+* **Free for Personal & Community Use:** You are free to view, use, run, and modify this bot for non-commercial, personal, or educational purposes.
+* **Mandatory Attribution:** You must prominently retain the copyright notice and credit the original author (**Hadgebury**) in all copies, substantial portions, or modified/derivative versions.
+* **No Commercial Gain:** The software and its derivatives may not be sold, monetized, or used for commercial gain, paid services, or fee-based hosting without the explicit prior written permission of the author.
+
+For the full legal terms, see the [LICENSE](LICENSE) file.
